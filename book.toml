@@ -8,8 +8,6 @@ title = "Mathematics in Lean"
 [build]
 build-dir = "out"
 
-[output.html]
-git-repository-url = "https://github.com/leanprover/theorem_proving_in_lean4"
 
 [output.html.playground.boring-prefixes]
 lean = "# "
