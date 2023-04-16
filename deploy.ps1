@@ -4,7 +4,7 @@
 mkdir deploy
 Set-Location deploy
 git init
-Copy-Item ..\out\* . -Recurse
+Copy-Item ..\html\* . -Recurse
 git add -A
 
 $date = Get-Date

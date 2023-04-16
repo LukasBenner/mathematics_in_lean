@@ -10,7 +10,7 @@ rm -rf deploy
 mkdir deploy
 cd deploy
 git init
-cp -r ../out/* .
+cp -r ../html/* .
 git add -A
 git commit -m "Update `date`"
 git push git@github.com:LukasBenner/mathematics_in_lean.git +HEAD:gh-pages

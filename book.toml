@@ -6,8 +6,10 @@ src = "src"
 title = "Mathematics in Lean"
 
 [build]
-build-dir = "out"
+build-dir = "html"
 
+[output.html]
+git-repository-url = "https://github.com/LukasBenner/mathematics_in_lean"
 
 [output.html.playground.boring-prefixes]
 lean = "# "
